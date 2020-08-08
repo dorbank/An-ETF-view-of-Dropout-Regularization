@@ -7,9 +7,14 @@ In order to run the experiments for the Penn Tree Bank:
 3. For a run with the coherence regularization, run the "ptb_word_lm" file.
 Choose the model you want (small\medium) in the constants in the file.
 
+
 In order to run the experiments for the Fashion MNIST:
 1. go to the Fashion MNIST directory.
 2. in the LenetMnistGraph file, change the appropriate constant to choose the coherence loss (None\Convolution\FC), and choose the dropout keep_prob.
 3. Run the LenetMnist file.
 
 
+In order to run the experiments for the CIFAR10:
+1. go to the CIFAR10 directory.
+2. in the LenetCIFAR10Graph file, change the appropriate constant to choose the coherence loss (None\Convolution\FC), and choose the dropout keep_prob.
+3. Run the LenetCIFAR10 file.
