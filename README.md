@@ -18,3 +18,6 @@ In order to run the experiments for the CIFAR10:
 1. go to the CIFAR10 directory.
 2. in the LenetCIFAR10Graph file, change the appropriate constant to choose the coherence loss (None\Convolution\FC), and choose the dropout keep_prob.
 3. Run the LenetCIFAR10 file.
+
+
+For any questions\bugs\missing parts please contact me at dorbank@gmail.com
